@@ -48,6 +48,6 @@ Power BI + ArcGIS dashboard of London crime hotspots with a Python ETL and 12-mo
 These extensions would deepen the AI/ML application, turning the dashboard into a more predictive and diagnostic tool for decision-makers.
 
 ## Disclaimer
-This project is **not fully finalized in terms of aesthetics or visual polish** to be team-ready. It is published here to **demonstrate technical capability with ArcGIS, Power BI, and Python forecasting** to recruiters.  
+This project is **not fully finalised in terms of aesthetics or visual polish** to be team-ready. It is published here to **demonstrate technical capability with ArcGIS, Power BI, and Python forecasting** to recruiters.  
 
 Due to **GitHub file size limits** (and not holding a premium account), the full `.pbix` and raw datasets are not uploaded. Instead, **screenshots** are provided as representative outputs.
