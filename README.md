@@ -1,53 +1,50 @@
 # London Crime Analytics (ArcGIS + Power BI + Python)
 
-An end-to-end geospatial analytics project for London crime:
-- **ArcGIS Maps** heatmap (Power BI) for hotspots
-- **24 months of crime trends by type (2023–2024)**
-- **Dynamic KPIs + slicers for interactive filtering**
-- **Python ETL + Forecast** (pandas, scikit-learn) projecting into 2025
+## Overview  
+This project demonstrates how to transform a **large real-world dataset** into actionable insights using **Python, Power BI, and ArcGIS**.  
+I built an **interactive dashboard** that identifies hotspots, tracks trends, and forecasts future patterns — the same techniques used in **finance, risk, and business analytics** for budgeting, demand planning, and anomaly detection.  
 
-## Screenshots
+## Key Features  
+- **Geospatial Analysis**: ArcGIS heatmaps in Power BI to highlight hotspots. In finance, similar methods apply to **branch performance, risk exposure, or regional sales**.  
+- **Trend Tracking**: 24 months of time-series data broken down by category, transferable to **revenue or cost trend analysis**.  
+- **Dynamic KPIs + Slicers**: Interactive filtering with KPIs and visuals updating in real time, mirroring **executive dashboards for financial decision-making**.  
+- **Forecasting with Python**: Regression model (scikit-learn) projecting 2025 outcomes, directly applicable to **revenue forecasting and budget planning**.  
+
+## Tools & Tech Stack  
+- **Python**: pandas, scikit-learn (ETL + forecasting)  
+- **Power BI**: dashboards, KPIs, ArcGIS integration  
+- **ArcGIS**: geospatial visualisation  
+
+## Applications Across Domains  
+The techniques here apply beyond crime data:  
+- **Anomaly detection** → fraud monitoring, cost overruns, system errors  
+- **Forecasting demand** → revenue, inventory, staffing needs  
+- **Regional trends** → branch profitability, marketing impact, resource allocation  
+
+## Screenshots  
 
 **Dashboard Overview**  
-*Full Power BI report: ArcGIS hotspots, KPIs, trends by crime type, and a 12-month forecast.*  
-![Dashboard Overview](screenshots/dashboard_plain.png)
+*ArcGIS hotspots, KPIs, and forecast integration.*  
+![Dashboard Overview](screenshots/dashboard_plain.png)  
 
 **ArcGIS Hotspot Map (Zoomed)**  
 *Interactive map of London crimes, filterable by month, with tooltip details per location.*  
-![ArcGIS Zoom](screenshots/Heatmap.png)
+![ArcGIS Zoom](screenshots/Heatmap.png)  
 
 **KPI + Charts Reacting to Slicer**  
 *Three-month selection: KPIs, bar chart, and line chart dynamically update with filters.*  
-![Slicer Reaction](screenshots/month_decrease.png)
+![Slicer Reaction](screenshots/month_decrease.png)  
 
 **Forecast Projection (July 2025)**  
-*Python-generated forecast imported into Power BI, projecting the trend into 2025.*  
-![Forecast Projection](screenshots/forecast_crime.png)
+*Python-generated forecast integrated into Power BI.*  
+![Forecast Projection](screenshots/forecast_crime.png)  
 
-## Data
-- Source: UK Police (Metropolitan Police Service)  
-- Period: Jan 2023 – Dec 2024 (actuals) + Jan–Dec 2025 (forecast)  
-- Attribution:  
-  - “Powered by TfL Open Data”  
-  - “Contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights [2019]”  
+## Planned Extensions  
+- Seasonal forecasting models (ARIMA/Prophet)  
+- Anomaly detection to highlight outliers in time-series  
+- Clustering (KMeans/DBSCAN) to detect persistent hotspots  
 
-## About
-Power BI + ArcGIS dashboard of London crime hotspots with a Python ETL and 12-month forecast (UK Police open data).  
+## Note  
+This dashboard is published as a **skills showcase**. It prioritises demonstrating technical capability in **Python ETL, Power BI, and ArcGIS integration** rather than polished aesthetics for executive delivery.  
 
-## AI / ML Components
-
-- **Applied**:  
-  - Built a Python forecasting pipeline using **scikit-learn regression** on 24 months of crime data to project crime counts into 2025.  
-  - Integrated results into Power BI for visualisation alongside KPIs, slicers, and ArcGIS mapping.  
-
-- **Planned Extensions**:  
-  - **Enhanced forecasting** with RandomForest and seasonal/lag features to improve accuracy.  
-  - **Anomaly detection** (z-score or Isolation Forest) to highlight unusual monthly crime spikes.  
-  - **Geospatial clustering** (DBSCAN/KMeans) to detect persistent hotspots beyond raw heatmaps.  
-
-These extensions would deepen the AI/ML application, turning the dashboard into a more predictive and diagnostic tool for decision-makers.
-
-## Disclaimer
-This project is **not fully finalised in terms of aesthetics or visual polish** to be team-ready. It is published here to **demonstrate technical capability with ArcGIS, Power BI, and Python forecasting** to recruiters.  
-
-Due to **GitHub file size limits** (and not holding a premium account), the full `.pbix` and raw datasets are not uploaded. Instead, **screenshots** are provided as representative outputs.
+Due to **GitHub file size limits**, the full `.pbix` and raw datasets are not uploaded. Instead, **screenshots** are provided as representative outputs.  
